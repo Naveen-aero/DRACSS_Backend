@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'backend_app.accounts', 
+    'backend_app.drone_registration',
     
 ]
 
