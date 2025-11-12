@@ -11,7 +11,7 @@ class Account(models.Model):
     email = models.EmailField(unique=True)
     address = models.TextField(blank=True)
     client_type = models.CharField(max_length=20, choices=CLIENT_TYPES, default="client")
-
+     
     employee_id = models.CharField(max_length=50, unique=True, blank=True, null=True)
     designation = models.CharField(max_length=100, blank=True)
 
